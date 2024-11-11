@@ -21,3 +21,24 @@ Express.js: Minimal and flexible Node.js web application framework.
 Multer: Middleware for handling multipart/form-data, primarily used for file uploads.
 JWT (JSON Web Token): Standard for securely transmitting information between parties.
 Dotenv: Loads environment variables from a .env file into process.env.
+
+Add file structure
+Backend_Tutorial
+├── node_modules
+├── public                 # Public assets
+├── src                    # Source folder
+│   ├── controllers        # Route controllers for request handling
+│   ├── db                 # Database connection and configuration
+│   ├── middlewares        # Middleware functions
+│   ├── models             # Database models
+│   ├── routes             # Route definitions
+│   ├── utils              # Utility functions (e.g., error handling, response formatting)
+│   ├── app.js             # Main app configuration
+│   ├── constants.js       # Project constants
+│   └── index.js           # Server entry point
+├── .env                   # Environment variables
+├── .env.sample            # Example environment variables
+├── .gitignore             # Git ignore file
+├── package.json           # Project metadata and dependencies
+└── README.md              # Project documentation
+
