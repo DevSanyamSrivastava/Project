@@ -1,11 +1,8 @@
-# Ignore environment variables
+# Ignore env files
 .env
-.env.sample
-
-# Ignore node modules
-node_modules/
-
-
-node_modules
 *.env
-.env/
+
+
+
+# Ignore node_modules
+node_modules/
